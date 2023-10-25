@@ -8,7 +8,7 @@ n7=7
 n8=8
 n9=9
 
-
+complet=False
 # 1
 print ("1","|","2","|","3")
 print ("-"," ","-"," ","-")
@@ -102,7 +102,11 @@ while tour<89:
                             if(n7!=7):
                                 if(n8!=8):
                                     if(n9!=9):
-                                        tour=90
+                                        complet=True
+
+
+if (complet==True):
+    tour=90
 
 if (tour==90):
     print("fin")
