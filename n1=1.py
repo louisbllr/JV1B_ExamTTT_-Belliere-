@@ -65,15 +65,15 @@ while tour<89:
         n8=x 
     if (joue ==9):
         n9=x 
-    
+
     print (n1,"|",n2,"|",n3)
     print ("-"," ","-"," ","-")
     print (n4,"|",n5,"|",n6)
     print ("-"," ","-"," ","-")
     print (n7,"|",n8,"|",n9)        
-    
+
     tour=tour+10
-    
+
     # 3
     if(n1==n2==n3):
         tour=90
@@ -91,7 +91,7 @@ while tour<89:
         tour=90          
     if(n3==n5==n7):
         tour=90 
-    
+
     # 4
     if(n1!=1):
         if(n2!=2):
@@ -113,16 +113,3 @@ if (tour==90):
 # Il faut aussi y inserer de la "graviter" pour pas que les joueurs puissent poser leurs pions partout
 # Il faudras aussi augmenter la taille de la grille
 # Il faudras aussi augmenter le nombre de tour a jouer et de pions a jouer 
-
-
-
-
-
-
-
-
-
-
-
-
-
